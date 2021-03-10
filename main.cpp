@@ -1,7 +1,6 @@
 /* **************************************************************************************************
 *Written by :  Nurullah Demirci
-*Department :  Computer Engineering <--> 2. Education
-*Number     :  244037
+*Department :  Computer Engineering
 *GSM        :  +90 531 356 0256
 *EMail		:  nurullahdemirci061@gmail.com
 ************************************************************************************************** */
@@ -1593,7 +1592,7 @@ int main() {
 	Table<double>* t5 = new Table<double>(4, 4, 'r');
 
 	/* ** Matrix Write On Console With print() Method. Tested ** */
-	//t1->print();
+	t1->print();
 	//t2->print();
 	//t2->resize(10, 10);
 	//t2->print();
