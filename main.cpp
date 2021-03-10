@@ -11,16 +11,16 @@
 *template <class Type1> Used for Matrix Class.
 *template <class Type2> Used for Image Class.
 *template <class Type3> Used for Table Class.
-*Matrix Class'ýnda istenen (char, int, double), random, birim matris deðerli matrisler oluþturulabilir.
-*Matris objeleri arasýnda overloading yapýlabilir.
-*Overloading in amacý main içinde daha sade ve anlaþýlýr kod yazabilmektir.
-*Matrisin determinantý, tersi, transpozu, eleman düzeyinde çarpma, matris dört iþlemi,
-matris scalar iþlemleri yapýlabilir. Console çýktý alýnabilir.
-*Image Sýnýfý ile .bin ve .bmp formatlý dosyalar okunup tekrar yazýlabilir. Görüntü gray level ve
-binary level yapýlabilir.
-*Image Sýnýfý Ýle Görüntü Üzerinde Morfolojik Ýþlemler Yapýlýp Tekrar dosyaya yazýlabilir.
-*Table Sýnýfý Ýle Matrisimize Özel Satýr Sutunlarý Tanýmlanabilir.
-Ve Ýstenen satýr ve sütündaki Deðer Geri Döndürülebilir.
+*Matrix Class'inda istenen (char, int, double), random, birim matris degerli matrisler olusturulabilir.
+*Matris objeleri arasinda overloading yapýlabilir.
+*Overloading in amaci main içinde daha sade ve anlasilir kod yazabilmektir.
+*Matrisin determinanti, tersi, transpozu, eleman düzeyinde çarpma, matris dört islemi,
+matris scalar islemleri yapýlabilir. Console cikti alinabilir.
+*Image Sinifi ile .bin ve .bmp formatli dosyalar okunup tekrar yazilabilir. Görüntü gray level ve
+binary level yapilabilir.
+*Image Sinifi ile Goruntu Uzerinde Morfolojik Islemler Yapilip Tekrar dosyaya yazilabilir.
+*Table Sinifi ile Matrisimize Ozel Satir Sutunlari Tanimlanabilir.
+Ve Istenen satir ve sutundaki Deger Geri Dondurulebilir.
 ************************************************************************************************** */
 
 #include <string>
@@ -1649,17 +1649,3 @@ int main() {
 	system("PAUSE");
 	return 0;
 }
-/* **************************************************************************************************
-Dosyayý.cpp olarak kaydedin.Þimdi dosyanýn olduðu yere konsoldan cd komutunu kullanarak ilerleyin.
-Eðer dosyanýn adini unuttuysanýz –ls komutunu kullanarak klasördeki tüm dosyalara bakabilirsiniz.
-
-Derlemek için aþaðýdaki komutu yazýn ve enter’a basýn.
-
-g++ dosya_adi.cpp –o dosya_adi
-
-þimdi kodunuzda hata yok ise programýnýz hazýrdýr ve dosya_adi olarak derlenmiþtir.Bu programý açmak için
-
-. / dosya_adi
-
-Yazmanýz yeterli.
-************************************************************************************************** */
